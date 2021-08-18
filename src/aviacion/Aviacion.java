@@ -24,9 +24,12 @@ public class Aviacion {
         //ArrayList<Car> carros = new ArrayList();
         
         Planes[] aviones = {new Planes(1,"airbus 999", 90,3,3000),new Planes(2,"boeing 747", 30,1,1000)};
-        //Planes airbus = new Planes(15, "airbus 778", 50, 3, 4000);
-        //System.out.println("pruebas");
-        //System.out.println(airbus.show_id());
+        Airports[] aeropuertos ={new Airports(1,"Aeropuerto Internacional Ernesto Cortissoz", "barranquilla","Colombia",74565544,10532206),new Airports(2,"Aeropuerto Internacional El Dorado", "bogota","Colombia",74084904,4420577) };
+        
+        
+        System.out.println("pruebas");
+        System.out.println(aviones[0].getmodel());
+        System.out.println(aeropuertos[1].getname());
         //TODO revies if the arry works
         
         

@@ -26,4 +26,56 @@ public class Airports {
         this.coord_y=coord_y;
     }
     //TODO make the rest of the (c)RUD
+    //getter methods Read
+    
+    public int getid(){
+        return id;
+    }
+    
+    public String getname(){
+        return name;
+    }
+    
+    public String getcity(){
+        return city;
+    }
+    
+    public String getcountry(){
+        return country;
+    }
+    
+    public int getcoord_x(){
+        return coord_x;
+    }
+    
+    public int getcoord_y(){
+        return coord_y;
+    }
+    
+    //setter methods update
+    
+    public void setid( int id){
+        this.id=id;
+    }
+    
+    public void setname(String name){
+        this.name=name;
+    }
+    
+    public void setcity(String city){
+        this.city=city;
+    }
+    
+    public void setcountry(String country){
+        this.country=country;
+    }
+    
+    public void setcoord_x(int coord_x){
+        this.coord_x=coord_x;
+    }
+    
+    public void setcoord_y(int coord_y){
+        this.coord_y=coord_y;
+    }
+    //TODO Destroy methods
 }

@@ -23,4 +23,41 @@ public class Routes {
 
     }
 //TODO make the rest of the (c)RUD
+    //get methods (Read)
+    
+    public int getid(){
+        return id;
+    }
+    
+    public Airports getorigin(){
+        return origin;
+    }
+    
+    public Airports getdestiny(){
+        return destiny;
+    }
+    
+    public int getestimated_time(){
+        return estimated_time;
+    }
+    //set methods (update)
+    
+    public void setid(int id){
+        this.id=id;
+    }
+    
+    public void setorigin(Airports origin){
+        this.origin=origin;
+    }
+    
+    public void getdestiny(Airports destiny){
+        this.destiny=destiny;
+    }
+    
+    public void getestimated_time(int estimated_time){
+        this.estimated_time=estimated_time;
+    }    
+   
+    //TODO Destroy  functions
+    
 }

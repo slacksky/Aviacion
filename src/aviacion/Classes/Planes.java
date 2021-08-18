@@ -28,26 +28,45 @@ public class Planes {
     
     
     //retuning functions "Read/SHOW"
-    public int show_id(){
+    public int getid(){
     return id;
     }
     
-    public String show_model(){
+    public String getmodel(){
     return model;
     }
     
-    public int show_seats(){
+    public int getseats(){
     return seats;
     }
     
-    public int show_bathrooms(){
+    public int getbathrooms(){
     return bathrooms;
     }
     
-    public int show_max_weight(){
+    public int getmax_weight(){
     return max_weight;
     }
     
     //Updated the objects
+    public void setid( int id){
+    this.id=id;
+    }
     
+    public void setmodel(String model){
+    this.model=model;
+    }
+    
+    public void setseats(int seats){
+    this.seats=seats;
+    }
+    
+    public void setbathrooms(int bathrooms){
+    this.bathrooms=bathrooms;
+    }
+    
+    public void setmax_weight(int max_weight){
+    this.max_weight=max_weight;
+    }
+    // TODO Destroy methods
 }
